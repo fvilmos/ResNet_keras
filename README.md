@@ -3,6 +3,7 @@
 This is an unoffcial implementation of the ResNet in Keras (concept and architectue: https://arxiv.org/pdf/1512.03385.pdf).
 
 This implementation alows in a fexible way to generate the ResNet 18 and 34 model variants.
+
 Other ResNet configurations (like number of resnet blocks, or filter number) can be easily changed. 
 Identity shortcuts on dimension transition use 1x1 convolution to match the desired output, see the paper for details.
 
